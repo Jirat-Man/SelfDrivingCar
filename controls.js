@@ -4,9 +4,7 @@ class Controls{
         this.left = false;
         this.right = false;
         this.reverse = false;
-
-        this.hello = false;
-
+          
         this.#addKeyboardListeners();
     }
     #addKeyboardListeners(){
